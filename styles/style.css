@@ -1,18 +1,21 @@
 /* @font-face {
-	src: url('../vendor/fonts/Inter-Regular.woff');
+	src: url('fonts/Inter-Regular.woff');
   font-family: 'Inter-Regular';
 }
 
 @font-face {
-	src: url('../vendor/fonts/Inter-Bold.woff');
+	src: url('fonts/Inter-Bold.woff');
   font-family: 'Inter-Bold';
-  font-weight: bold;
 }
 
 @font-face {
-	src: url('../vendor/fonts/Inter-Italic.woff');
+	src: url('fonts/Inter-Italic.woff');
   font-family: 'Inter-Italic';
-  font-style: italic;
+}
+
+@font-face {
+	src: url('fonts/Inter-Black.woff');
+  font-family: 'Inter-Black';
 } */
 
 .page {
@@ -102,7 +105,6 @@
 
 .lead__image {
   width: 100%;
-  max-width: 984px;
   margin-top: 64px;
 }
 
