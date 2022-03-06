@@ -1,0 +1,13 @@
+﻿.place__link {
+  display: inline-block;
+  font-family: 'Inter-Regular';
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  transition: .2s;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+  cursor: url(../../../images/Pointer.png);
+}

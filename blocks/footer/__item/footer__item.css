@@ -1,0 +1,22 @@
+﻿.footer__item {
+  display: inline-block;
+  margin-right: 19px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__item {
+    display: block;
+    margin: 0 0 32px 16px;
+  }
+}
+
+.footer__item:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__item:last-child {
+    display: block;
+    margin: 0 0 0 16px;
+  }
+}
